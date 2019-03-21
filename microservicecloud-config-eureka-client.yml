@@ -17,7 +17,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-    service-uri:
+      service-uri:
       defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
